@@ -1,0 +1,49 @@
+extensions: []
+filenames:
+- keyString: "Dockerfile"
+comments: []
+outlineMenu: []
+completions: []
+metadata:
+  author: "Maxence Papillon"
+  lastModified: "2017-05-25"
+  license: "MIT"
+  version: "1.0"
+numbers: []
+commands: []
+values: []
+keywords:
+- beginString: "ADD"
+- beginString: "ARG"
+- beginString: "CMD"
+- beginString: "COPY"
+- beginString: "ENTRYPOINT"
+- beginString: "ENV"
+- beginString: "EXPOSE"
+- beginString: "FROM"
+- beginString: "HEALTHCHECK"
+- beginString: "LABEL"
+- beginString: "MAINTAINER"
+- beginString: "ONBUILD"
+- beginString: "RUN"
+- beginString: "SHELL"
+- beginString: "STOPSIGNAL"
+- beginString: "USER"
+- beginString: "VOLUME"
+- beginString: "WORKDIR"
+attributes: []
+strings:
+- beginString: "\""
+  regularExpression: false
+  endString: "\""
+variables:
+- beginString: "\\$\\{?[_a-z][_a-z0-9]*\\}?"
+  ignoreCase: true
+  regularExpression: true
+interpreters: []
+types: []
+characters:
+- beginString: "'"
+  endString: "'"
+commentDelimiters:
+  inlineDelimiter: "#"
